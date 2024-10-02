@@ -30,6 +30,8 @@ public class StudentServiceImpl implements StudentService {
         response.put("studentList",all);
         response.put("totalCount",getTotalCount);
 
+        System.out.println("lalith");
+
         return response;
 
     }
